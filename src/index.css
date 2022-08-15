@@ -65,8 +65,8 @@ body {
 	display: flex;
 	justify-content: center;
 	font-family: 'Manjari', sans-serif;
-	color: #F0F0F0;
-	background-color: #4C4C4C;
+	color: #000;
+	background-color: #ECE3F0;
 	height: 100%;
 	width: 100%;
 	padding: 16px;
