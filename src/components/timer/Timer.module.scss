@@ -6,7 +6,7 @@
   
     .clockWrapper {
       align-items: center;
-      background-color: #7687A1;
+      background-color: #D3BBDD;
       border-radius: 10px;
       box-shadow: 2px 4px 4px #0000009F;
       box-sizing: border-box;
@@ -23,7 +23,7 @@
     }
   
     button {
-      background-color: #88bcd1;
+      background-color: #D3BBDD;
       border-radius: 10px;
       box-shadow: 2px 4px 4px #0000009F;
       color: #272626;
@@ -33,8 +33,7 @@
       width: 150px;
       
       &:active {
-        background-color: #7CA6B7;
-        box-shadow: 2px 2px 4px #0000009F inset;
+        background-color: #D3BBDD;
         cursor: auto;
       }
     }
