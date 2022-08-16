@@ -19,6 +19,7 @@ function List() {
             <ul>
                 {tasks.map((item, index) => (
                     <Item 
+                        key={index}    
                         {...item}
                     />
                 ))}
