@@ -1,8 +1,7 @@
-import React from 'react';
 import style from './Clock.module.scss';
 
 interface Props {
-    time: number | undefined;
+    time: number | undefined
 }
 
 export default function Clock({ time = 0 }: Props) {
@@ -10,7 +9,6 @@ export default function Clock({ time = 0 }: Props) {
     const seconds = time % 60;
     const [tenMinutes, unityMinutes] = String(minutes).padStart(2, '0');
     const [tenSeconds, unitySeconds] = String(seconds).padStart(2, '0');
-
     return (
         <>
             <span className={style.clockNumber}>{tenMinutes}</span>

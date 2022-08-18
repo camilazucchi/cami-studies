@@ -6,7 +6,7 @@ import tasksInterface from '../types/tasks';
 import style from './App.module.scss';
 
 function App() {
-  const [tasks, setTasks] = useState<tasksInterface[] | []>([]);
+  const [tasks, setTasks] = useState<tasksInterface[]>([]);
   const [selected, setSelected] = useState<tasksInterface>();
 
   function selectTask(selectedTask: tasksInterface) {

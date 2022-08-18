@@ -1,4 +1,4 @@
-import React, { ReactFragment } from "react"
+import React from "react";
 import style from './Button.module.scss'
 
 interface Props {
@@ -7,12 +7,13 @@ interface Props {
     children?: React.ReactNode
 }
 
-function Button({ onClick, type, children}: Props) {
+function Button({ onClick, type, children }: Props) {
     return (
         <button
             onClick={onClick}
             type={type}
-            className= {style.button}>
+            className= {style.button}
+            >
             {children}
         </button>
     )

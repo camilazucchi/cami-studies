@@ -5,7 +5,7 @@ import style from './Form.module.scss';
 import { v4 as uuidv4} from 'uuid';
 
 interface Props {
-        setTasks: React.Dispatch<React.SetStateAction<tasksInterface[]>>;
+        setTasks: React.Dispatch<React.SetStateAction<tasksInterface[]>>
 }
 
 function Form({ setTasks }: Props) {
@@ -24,7 +24,7 @@ function Form({ setTasks }: Props) {
                     id: uuidv4()
                 }
             ]
-        );
+        )
         setTask("");
         setTime("00:00");
     }
@@ -55,7 +55,7 @@ function Form({ setTasks }: Props) {
                     step="1"
                     name="time"
                     value={time}
-                    onChange={event => setTimeout(event.target.value)}
+                    onChange={event => setTime(event.target.value)}
                     id="time"
                     min="00:00:00"
                     max="01:30:00"
