@@ -10,7 +10,7 @@ interface Props {
     endTask: () => void
 }
 
-export default function Timer({ selected }:
+export default function Timer({ selected, endTask }:
     Props) {
         const [time, setTime] = useState<number>();
         useEffect(() => {
@@ -25,6 +25,7 @@ export default function Timer({ selected }:
                     setTime(counter - 1);
                     return regressive(counter - 1);
                 }
+                endTask();
             }, 1000)
         }
 
