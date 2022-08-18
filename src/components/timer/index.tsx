@@ -6,7 +6,8 @@ import Clock from './clock'
 import style from './Timer.module.scss'
 
 interface Props {
-    selected: tasksInterface | undefined
+    selected: tasksInterface | undefined,
+    endTask: () => void
 }
 
 export default function Timer({ selected }:
