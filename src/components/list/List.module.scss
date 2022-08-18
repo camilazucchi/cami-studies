@@ -3,7 +3,7 @@
     height: 100%;
   
     h2 {
-      font-size: 1.25rem;
+      font-size: 20px;
       margin-bottom: 12px;
     }
   
@@ -17,7 +17,7 @@
       
       h2{
         text-align: center;
-        font-size: 2.25rem;
+        font-size: 20px;
         margin-bottom: 24px;
       }
   
@@ -29,7 +29,7 @@
   }
   
   .item {
-    background-color: #ECE3F0;
+    background-color: #fff;
     border-radius: 8px;
     padding: 12px;
     margin-bottom: 8px;
@@ -42,7 +42,7 @@
     }
   
     span {
-      color: #D3BBDD;
+      color: #fff;
     }
   
     @media screen and (min-width:1280px) {
@@ -51,17 +51,17 @@
   }
   
   .selectedItem {
-    background-color: #292929;
-    box-shadow: 2px 4px 4px #0000009F inset;
+    background-color: #fff;
+    color: #000;
   }
   
   .completedItem {
-    background-color: #566F42;
+    background-color: #df7849;
     cursor: auto;
   
     .completed {
       display: block;
-      background-image: url('../../assets/img/icons8-checkmark-40.svg');
+      background-image: url('../../assets/img/naruto-chibi-done.webp');
       background-repeat: no-repeat;
       background-size: 38px 38px;
       position: absolute;

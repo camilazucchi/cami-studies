@@ -1,5 +1,5 @@
 .item {
-    background-color: #ECE3F0;
+    background-color: #fff;
     border-radius: 8px;
     padding: 12px;
     margin-bottom: 8px;
@@ -12,7 +12,8 @@
     }
   
     span {
-      color: #D3BBDD;
+      background-color: #000;
+      color: #fff;
     }
   
     @media screen and (min-width:1280px) {
@@ -21,17 +22,17 @@
   }
   
   .selectedItem {
-    background-color: #292929;
-    box-shadow: 2px 4px 4px #0000009F inset;
+    background-color: #df7849;
   }
   
   .completedItem {
-    background-color: #566F42;
+    background-color: #000;
+    color: #fff;
     cursor: auto;
   
     .completed {
       display: block;
-      background-image: url('../../../assets/img/icons8-checkmark-40.svg');
+      background-image: url('../../../assets/img/naruto-chibi-done.webp');
       background-repeat: no-repeat;
       background-size: 38px 38px;
       position: absolute;

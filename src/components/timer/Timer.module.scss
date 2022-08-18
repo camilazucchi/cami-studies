@@ -6,9 +6,8 @@
   
     .clockWrapper {
       align-items: center;
-      background-color: #D3BBDD;
+      background-color: #000;
       border-radius: 10px;
-      box-shadow: 2px 4px 4px #0000009F;
       box-sizing: border-box;
       display: flex;
       font-size: 5rem;
@@ -19,21 +18,22 @@
     }
   
     .title {
-      font-size: 2rem;
+      font-size: 24px;
+      padding: 10px;
     }
   
     button {
-      background-color: #D3BBDD;
+      background-color: #df7849;
       border-radius: 10px;
-      box-shadow: 2px 4px 4px #0000009F;
-      color: #272626;
+      color: #000;
       cursor: pointer;
-      font-size: 1.25rem;
+      font-size: 16px;
       padding: 16px;
       width: 150px;
       
       &:active {
-        background-color: #D3BBDD;
+        background-color: #fff;
+        color: #000;
         cursor: auto;
       }
     }
@@ -52,7 +52,6 @@
         grid-column-start: span 2;
         justify-self: center;
         width: 200px;
-        font-size: 2.25rem;
       }
     }
   }

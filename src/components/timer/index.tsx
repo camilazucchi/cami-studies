@@ -31,12 +31,11 @@ export default function Timer({ selected, endTask }:
 
     return (
         <div className={style.timer}>
-            <p className={style.title}>Escolha um card e inicie o cronômetro</p>
             <div className={style.clockWrapper}>
                 <Clock time={time}/>
             </div>
             <Button onClick={() => regressive(time)}>
-                Começar!
+                Começar
             </Button>
         </div>
     )

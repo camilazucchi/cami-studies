@@ -10,10 +10,11 @@
     min-width: 320px;
     min-height: calc(100vh - 32px);
     width: 100%;
-    padding: 34px;
+    padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: #D3BBDD;
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.3);
   
     @media screen and (min-width:1280px)  {
       grid-template-areas: 

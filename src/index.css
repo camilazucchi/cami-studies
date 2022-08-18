@@ -59,14 +59,16 @@ button {
 	color: inherit; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
 	display: flex;
 	justify-content: center;
-	font-family: 'Manjari', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #000;
-	background-color: #ECE3F0;
+	background-image: url(./assets/img/naruto-wallpaper.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 	padding: 16px;
@@ -87,9 +89,9 @@ body {
 
 ::-webkit-scrollbar-thumb {
 	border-radius: 4px;
-	background: #888;
+	background: #000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #555;
+	background: #000;
 }
