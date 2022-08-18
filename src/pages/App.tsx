@@ -24,7 +24,7 @@ function App() {
         tasks={tasks}
         selectTask={selectTask}
       />
-      <Timer />
+      <Timer selected={selected}/>
     </div>
   );
 }
