@@ -1,19 +1,19 @@
-import React from 'react';
-import style from'./Button.module.scss';
+import React, { ReactFragment } from "react"
+import style from './Button.module.scss'
 
-type Props ={
-    children: string,
-  type?: "button" | "submit" | "reset" | undefined
+type Params = {
+    type?: "button" | "submit" | "reset" | undefined;
+    children?: ReactFragment | undefined;
+    onClick?: () => void
 }
 
-class Button extends React.Component<Props>{
-    render(): React.ReactNode {
-        return (
-            <button type={this.props.type} className={style.button}>
-                {this.props.children}
-            </button>
-        )
-    }
+const Button: React.FC<Params> = (props:Params) =>{
+    const { type = "Button", onClick } = props;   
+    return(
+        <button onClick={onClick} type={props.type} className={style.button}>
+            {props.children}
+        </button>
+    )
 }
 
 export default Button;
