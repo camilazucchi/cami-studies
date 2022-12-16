@@ -2,7 +2,8 @@
 ![Imagem do projeto](https://uploaddeimagens.com.br/images/004/263/690/original/screencapture-localhost-3000-2022-12-16-13_57_33.png?1671210084)
 
 ## Sobre
-Cami Studies é uma lista de tarefa com timer, feita com React.
+Cami Studies é uma lista de tarefas com timer, feita com React.
+Para melhor visualização, o projeto encontra-se em deploy [AQUI](https://cami-studies.vercel.app/).
 
 ## Tecnologias utilizadas
 Para realizar o projeto, foram utilizadas as seguintes tecnologias:
